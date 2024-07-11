@@ -10,8 +10,9 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<PeriodicTable />} />
-          <Route path="/reaction" element={<Reaction />} />
+            <Route path="/" element={<PeriodicTable />} />
+            <Route path="/chemistry" element={<PeriodicTable />} />
+            <Route path="/reaction" element={<Reaction />} />
         </Routes>
       </div>
     </BrowserRouter>

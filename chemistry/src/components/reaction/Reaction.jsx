@@ -34,7 +34,7 @@ const Reaction = () => {
         (selectedElement.connection && selectedElement.connection.includes(element.name))
       ) ? element.color : 'lightgray'
     }}
-    className={`element element-${element.number}`}
+    className={`element element-${element.number} ${selectedElement.name === element.name ? 'selectedItem' : ''}`}
     onClick={() => handleElementClick(element)}
   >
     <div className="element-symbol">{element.symbol}</div>
