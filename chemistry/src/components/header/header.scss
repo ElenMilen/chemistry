@@ -14,3 +14,14 @@
         font-weight: bold;
     }
 }
+.header {
+    display: flex;
+    gap: 20px;
+
+    .header-title {
+
+        &.active {
+            color: lightcoral; // color when active
+        }
+    }
+}
