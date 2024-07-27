@@ -90,7 +90,6 @@ $element-size: 80px; // Size of each element cell
       align-items: flex-start;
       padding: 5px;
      }
-
      .theFooter{
       display: flex;
       padding: 25px;
@@ -122,4 +121,19 @@ $element-size: 80px; // Size of each element cell
 
 .selectedItem{
   border: 3.5px solid red;
+}
+
+.filterBox{
+  //border: solid 1px black;
+  height: 100px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+    .filterCenter{
+        height:50px;
+        width:400px;
+        border: solid 1px black;
+
+    }
 }
