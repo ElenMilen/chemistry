@@ -1,0 +1,26 @@
+.modal{
+    .modal-main{
+        // width: 70%;
+        z-index: 5;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+       
+        h2{
+            text-align:center;
+            width: 100%;
+        }
+        .modalDescription{
+            width: 50%;
+        }
+    }
+    .grayBackground{
+        background-color: rgba(38, 38, 38, 0.47);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 4;
+    }
+}
